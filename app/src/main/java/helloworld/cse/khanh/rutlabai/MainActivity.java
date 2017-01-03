@@ -36,7 +36,7 @@ public class MainActivity extends AppCompatActivity {
                 mangLaBai.add(R.drawable.cj);
                 mangLaBai.add(R.drawable.ck);
                 mangLaBai.add(R.drawable.cq);
-
+                mangLaBai.add(R.drawable.b1fv);
                 Random r = new Random();
                 int batky = r.nextInt(mangLaBai.size());
                 imgLaBai.setImageResource(mangLaBai.get(batky));
